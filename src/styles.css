@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-size: .875rem;
+  }
+  
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+  
+  h2{
+    color: rgb(17,111,128);
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  
+  thead {
+    background-color: rgb(17,111,128);
+}
+
+thead th {
+    color: white;
+    border: 1px solid #E3E3E3;
+}
+
+tbody td {
+    border: 1px solid #E3E3E3;
+}
+
+span.help-block {
+  color: red;
+  font-size: 0.7rem;
+}
+
+  

@@ -1,0 +1,30 @@
+<div *ngIf="trustee">
+    <h2>View Trustee Details</h2>
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>SSN/TIN</th>
+            <th>Gender</th>
+            <th>Marital Status</th>
+            <th>Passport</th>
+            <th>Expiration Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ trustee.shortName}}</td>
+            <td>{{ trustee.countryOfResidence }}</td>
+            <td>{{ trustee.ssn }}</td>
+            <td>{{ trustee.gender }}</td>
+            <td>{{ trustee.maritalStatus }}</td>
+            <td>{{ trustee.passport }}</td>
+            <td>{{ trustee.expirationDate }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button class="btn btn-outline-info btn-xs" routerLink="/">Back to Dashboard</button>
+</div>
